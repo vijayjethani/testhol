@@ -10,7 +10,7 @@ on:
 # For help, go to https://github.com/Azure/Actions
 #
 # 1. Set up the following secrets in your repository:
-#   AZURE_WEBAPP_PUBLISH_PROFILE
+#   DEPLOYGITHUB
 #
 # 2. Change these variables for your configuration:
 env:
@@ -20,7 +20,7 @@ env:
   AZURE_RESOURCE_GROUP: handsonlab               # set this to your Azure Resource group's name  
   AZURE_LOCATION: eastus                         # set this to your azure resource group location   
   AZURE_APP_PLAN: nodejsplan                     # set this to your App service plan's name
-  CONTAINER_REGISTRY: actionregistry.azurecr.io  # set this to Container Registry name
+  CONTAINER_REGISTRY: vijaygithubaction.azurecr.io  # set this to Container Registry name
 
 jobs:
   build-and-deploy:
